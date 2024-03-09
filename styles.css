@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue';
+    color: var(--accent-color);
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+:root {
+    --accent-color: #3E2210;
+    --red-color: #CC352B;
+}
+
+.navburger {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+
+    height: 91vh;
+    background-image: url('/images/rectangle.jpg');
+    background-size: cover;
+}
+
+.logo-delivery {
+    display: flex;
+}
+
+.logo {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.delivery img {
+    height: 30px;
+    text-align: end;
+    padding-top: 10px;
+    margin-right: 5px;
+}
+
+.delivery span {
+    font-size: 1.6rem;
+}
+
+.ranch-text {
+    font-family: "Alfa Slab One";
+}
+
+.delivery {
+    width: 100%;
+    text-align: end;
+    margin-right: 20px;
+}
+
+
+.navmenu {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: flex-end;
+    gap: 40px;
+    margin: 0 20px;
+}
+
+.navmenu a{
+    text-decoration: none;
+}
+
+.navburger .hero {
+    margin: 50px auto;
+}
+
+.hero {
+    display: flex;
+    margin: 35px 25px;
+    padding: 15px;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero img {
+    height: 500px;
+}
+
+.hero-text h1{
+    font-size: 6rem;
+}
+
+.hero-text h3 {
+    text-align: center;
+    border: dashed 3px var(--accent-color);
+    padding: 5px
+}
+
+.try-section {
+    display: flex;
+    justify-content: center;
+    padding: 70px 30px;
+    gap: 30px;
+}
+
+.try-col {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.choose-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.choose-text {
+    text-align: center;
+    padding: 15px 15px;
+
+}
+
+.choose-text h1 {
+    font-size: 3em;
+}
+
+.wrap-burgers {
+    margin: 35px auto;
+    display: flex;
+}
+
+.wrap-burgers img {
+    height: 300px;
+}
+
+.wrap-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.wrap-item h3 {
+    font-family: 'Alfa Slab One';
+}
+
+.wrap-item button {
+    margin-top: 25px;
+    text-decoration: none;
+    border: none;
+    width: 200px;
+    height: 50px;
+    background-color: var(--red-color);
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.upcoming-events {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-events {
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    box-shadow: 
+    0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    margin: 45px 50px;
+    padding: 30px;
+}
+
+.events-text {
+    padding: 15px;
+}
+
+.events-text p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-events img {
+    height: 400px;
+}
+
+.reservation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 55px;
+
+    position: relative;
+}
+
+.mini {
+    position: absolute;
+    height: 400px;
+    top: -100px;
+    left: -10px;
+}
+
+.plate {
+    position: absolute;
+    height: 450px;
+    top: 55px;
+    right: 0;
+}
+
+.bottle {
+    position: absolute;
+    height: 350px;
+    top: 70px;
+    left: 200px;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+.row input, button {
+    width: 250px;
+    height: 50px;
+
+    font-size: 1.em;
+    border-radius: 10px;
+    border: none;
+}
+
+.row input {
+    padding: 0 15px;
+    outline: none; /* Removes the focus */
+    border: solid 1px gray;
+}
+
+.row button {
+    width: 280px;
+    cursor: pointer;
+}
+
+.text-reservation {
+    text-align: center;
+}
+
+.res-button {
+    background-color: var(--red-color);
+    font-family: 'Alfa Slab One';
+    color: white;
+    
+}
+
+footer img {
+   width: 100%;
+   margin-bottom: -5px;
+}
+
